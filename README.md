@@ -1,39 +1,42 @@
-# 🎬 ReelPeek — Movie Discovery App (Work in Progress)
+# 🎬 ReelPeek — Movie Discovery App
 
-**ReelPeek** is a web app that helps users discover movies quickly and easily using The Movie Database (TMDB) API. With a clean UI and powerful search features, the app will allow users to explore trending titles, search for specific films, and get detailed movie information.
-
-> 🚧 This is a work-in-progress project I’m building during Summer 2025 to level up my frontend + API integration skills.
+**ReelPeek** is a React-based web app that helps users discover movies quickly using The Movie Database (TMDB) API. It features a clean, responsive UI with search, filters, and detailed movie information.
 
 ---
 
-## 🌟 Goals
+## 🌟 Project Goals
 
-- Learn how to fetch and display dynamic data from external APIs
-- Build an interactive and responsive frontend using HTML, CSS, and JavaScript
-- Understand pagination, search filters, and UI state management
-- Prepare the project for future deployment and scalability
-
----
-
-## 📌 Planned Features
-
-- 🔍 Search movies by name
-- 🎥 View trending movies
-- 🧾 Movie detail cards (title, rating, description, release date, poster)
-- 📊 Filter by genre or popularity
-- 💡 Light/Dark mode toggle (planned)
-- 📱 Mobile responsive UI
-- 🔐 Optional user login for watchlist/favorites (future)
+- Learn how to integrate external APIs dynamically  
+- Build a responsive UI with React and Tailwind CSS  
+- Manage API state and caching with React Query  
+- Implement pagination and filtering features  
+- Prepare for future deployment with Vercel  
+- Add user authentication and watchlist features (planned)
 
 ---
 
-## 🛠️ Tech Stack (Initial)
+## 📌 Features (Planned)
 
-| Area       | Tools                      |
-|------------|----------------------------|
-| Frontend   | HTML, CSS, JavaScript      |
-| API        | [TMDB API](https://developer.themoviedb.org/) |
-| Hosting    | GitHub Pages / Firebase Hosting (TBD) |
-| Versioning | Git + GitHub               |
+- 🔍 Search movies by title with live results  
+- 🎥 View trending and popular movies  
+- 🧾 Detailed movie cards: title, rating, description, release date, poster  
+- 📊 Filter movies by genre or popularity  
+- 💡 Light/Dark mode toggle  
+- 📱 Mobile-responsive design  
+- 🔐 User login for watchlists and favorites (future)
+
+---
+
+## 🛠️ Tech Stack
+
+| Area       | Technology                           |
+|------------|------------------------------------|
+| Frontend   | React, Tailwind CSS                 |
+| API        | TMDB API                           |
+| State      | React Query                       |
+| Routing    | React Router                      |
+| Auth (future) | Firebase Auth or Supabase Auth    |
+| Hosting    | Vercel or Netlify                 |
+| Versioning | Git + GitHub                      |
 
 ---
